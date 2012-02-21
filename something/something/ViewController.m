@@ -9,6 +9,9 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize green_view;
+@synthesize red_view;
+@synthesize push_me;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +29,9 @@
 
 - (void)viewDidUnload
 {
+    [self setGreen_view:nil];
+    [self setRed_view:nil];
+    [self setPush_me:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

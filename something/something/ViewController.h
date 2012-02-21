@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *green_view;
+@property (weak, nonatomic) IBOutlet UIView *red_view;
+@property (weak, nonatomic) IBOutlet UIButton *push_me;
 
 @end
