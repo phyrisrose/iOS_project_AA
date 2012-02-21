@@ -11,4 +11,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *greenview;
+@property (weak, nonatomic) IBOutlet UIView *redview;
+- (IBAction)pushme:(id)sender;
+
 @end
