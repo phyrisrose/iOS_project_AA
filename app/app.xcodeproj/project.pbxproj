@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C32CC7E414F4402600F3E9BD /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C32CC7E314F4402600F3E9BD /* TestView.m */; };
 		FDA5963514F34D1C00246A46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA5963414F34D1C00246A46 /* UIKit.framework */; };
 		FDA5963714F34D1C00246A46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA5963614F34D1C00246A46 /* Foundation.framework */; };
 		FDA5963914F34D1C00246A46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA5963814F34D1C00246A46 /* CoreGraphics.framework */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C32CC7E214F4402600F3E9BD /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		C32CC7E314F4402600F3E9BD /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		FDA5963014F34D1C00246A46 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA5963414F34D1C00246A46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FDA5963614F34D1C00246A46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,6 +88,8 @@
 				FDA5964914F34D1C00246A46 /* MainStoryboard_iPad.storyboard */,
 				FDA5964C14F34D1C00246A46 /* ViewController.h */,
 				FDA5964D14F34D1C00246A46 /* ViewController.m */,
+				C32CC7E214F4402600F3E9BD /* TestView.h */,
+				C32CC7E314F4402600F3E9BD /* TestView.m */,
 				FDA5963B14F34D1C00246A46 /* Supporting Files */,
 			);
 			path = app;
@@ -167,6 +172,7 @@
 				FDA5964114F34D1C00246A46 /* main.m in Sources */,
 				FDA5964514F34D1C00246A46 /* AppDelegate.m in Sources */,
 				FDA5964E14F34D1C00246A46 /* ViewController.m in Sources */,
+				C32CC7E414F4402600F3E9BD /* TestView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +294,7 @@
 				FDA5965314F34D1C00246A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

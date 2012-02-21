@@ -66,5 +66,6 @@
 }
 
 - (IBAction)pushme:(id)sender {
+   [redview addLabel];
 }
 @end

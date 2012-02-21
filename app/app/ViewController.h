@@ -8,11 +8,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestView.h"
 
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIView *greenview;
-@property (weak, nonatomic) IBOutlet UIView *redview;
+@property (weak, nonatomic) IBOutlet TestView *redview;
 - (IBAction)pushme:(id)sender;
 
 @end
